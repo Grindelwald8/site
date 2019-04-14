@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: #343434;
+	background: #121212;
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav {
+	list-style: none;
+	padding: 0;
+	background: #2e2e2e url(images/nav_bar.jpg) repeat-x;
+	display: block;
+
+	font-size: 0.9em;
+	height:33px;
+	text-transform:capitalize;
+}
+#nav li {
+	display: inline;
+}
+#nav li a {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+#nav li a:hover {
+	background: #1b1b1b url(images/nav_bar_o.jpg) repeat-x;
+}
+#load {
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: url(images/ajax-loader.gif);
+	width: 43px;
+	height: 11px;
+	text-indent: -9999em;
+}
+
+
+
+

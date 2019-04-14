@@ -1,0 +1,86 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+* {
+	font-family: "Arial", sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+body{
+	background:#fff;
+}
+
+#head{
+	height:100px;
+	background:blue;
+	position:relative;
+
+}
+
+#wrap{
+	margin:0px 0px 0px 0px;
+	background:purple;
+	min-width:840px;
+	
+}
+#nad_content{
+	height:35px;
+	background:#2e2e2e url(images/nav_bar.jpg) repeat-x;
+	
+}
+#content{
+	height:570px;
+	background:red;
+	margin:0 160px 0 160px;
+	
+}
+
+#footer{
+	position:relative;
+	height:140px;
+	background:blue;
+}
+#Lsidebar{
+	float:left;
+	width:150px;
+	background: #09556e;
+	height:605px;
+}
+#Rsidebar{
+	float:right;
+	width:150px;
+	background: #09556e;
+	height:605px;
+}
+#mmenu
+{
+	position: absolute;
+	
+	
+	left:2%;
+	  line-height:250%;
+	opacity: 1;
+	 	list-style-type:circle;
+}
+#mmenu > ul
+{
+list-style-type:circle;
+}
+
+#mmenu > ul >li{
+font-weight:800;
+font-size: 75%;
+list-style-type:circle;
+}
+
+#mmenu > ul > li a {
+	color: black;
+	text-decoration: none;
+}
+#mmenu > ul > li a:hover {
+	color: red;
+
+}
